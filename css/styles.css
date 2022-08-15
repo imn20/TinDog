@@ -1,0 +1,120 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+.iphone-dog {
+  width: 300px;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 150px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.cont {
+  padding: 0;
+}
+
+.download-button {
+  margin: 50px 5px 0 10px;
+}
+
+.feature-box{
+  text-align: center;
+}
+.feature-box p{
+  font-family: 'Montserrat', sans-serif;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.dogPic{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 20px 15px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.cardHolder{
+  margin: 30px 0;
+}
+.card{
+  text-align: center;
+}
+.card-body p{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+  font-size: 20px;
+  margin: 0 10px 0px 5px;
+}
+@media (max-width: 1030px) {
+  #title{
+    text-align: center;
+  }
+.iphone-dog{
+  position: static;
+  transform: rotate(0deg);
+}
+}
+#footer{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 30px;
+}
+#cta{
+  text-align: center;
+  height: 200px;
+}
